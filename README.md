@@ -1,2 +1,16 @@
-# PE_WebDesignForIT67
-The first project for send my website design
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wattikon</title>
+</head>
+<body>
+    <center>
+
+        <h1>Hello world</h1>
+        <b><p style="color:rgb(12, 15, 168);">สวัสดีชาวโลก</p></b>
+
+    </center>
+</body>
+</html>
