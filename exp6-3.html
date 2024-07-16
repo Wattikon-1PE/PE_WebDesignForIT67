@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <!--
+         link htef="" ดึงลิ้งค์ css ของ bootstap 5 มาใช้งาน
+         script src="" ดึงลิ้งค์ js ของ bootstap 5 มาใช้งาน
+        -->
+
+    </head>
+    <body style="background-color: rgb(31, 31, 31); color: white;">
+        <!------------ Navbar ------------->
+        <nav class="navbar navbar-light bg-light" style="padding: 8px; display: flex; align-items: centerh; justify-content: center;">
+            <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">Wattikon 67319010019</span>
+            </div>
+        </nav>
+        <br>
+        <!-- from -->
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name" class="form-label">ชื่อและสกุล:</label></td>
+                    <td>
+                        <input type="text" name="fname" size="10" placeholder="ชื่อ">
+                        <input type="text"type="text" name="lname" size="14" placeholder="นามสกุล">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="addr1">ที่อยู่บรรทัดที่ 1:</label></td>
+                    <td>
+                        <input type="text" id="addr1" name="address1" size="30" placeholder="เลขที่ ซอย ถนน">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="addr2">ที่อยู่บรรทัดที่ 2:</label></td>
+                    <td>
+                        <input type="text" id="addr2" name="address2" size="30" placeholder="แขวง/ตำบล เขต/อำเภอ จังหวัด">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="zip">รหัสไปรษณีย์:</label></td>
+                    <td>
+                        <input type="text" id="zip" name="postalcode" size="10" maxlength="5">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="phone">โทร:</label></td>
+                    <td>
+                        <input type="text" id="phone" name="phone" size="30" placeholder="ใส่เฉพาะตัวเลข">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="eml">อีเมล:</label></td>
+                    <td><input type="text" id="eml" name="email" size="30"></td>
+                </tr>
+            </table>        
+        </form>
+
+        <!--
+            <nav></nav> -- Navbars เปลี่ยนคอนเทนเนอร์เพื่อจำกัดความกว้างแนวนอนในรูปแบบต่างๆ
+            class="" -- ทำให้ element ถูกกำหนด style ที่เหมือนกันได้โดยใช้ชื่อ class เดียวกัน
+            type="text" -- รับ input บรรทัดเดียว
+            id=" ตั้งชื่อให้กับตัว input "
+            placeholder="กรอกข้อความ" -- เขียนลายนํ้าให้กับกล่องข้อความ
+            maxlength="" -- จำกัดจำนวนตัวอักษรในการกรอก
+            size="" -- กำหนดความยาวของแถว
+            name="" -- เป็นการเชื่อมโยงชื่อ
+            for=" ตั้งชื่อให้กับตัว label "
+        -->
+        
+    </body>
+</html>
